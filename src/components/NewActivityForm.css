@@ -1,0 +1,46 @@
+.input-content-area{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ gap: 0.5rem;
+ 
+}
+
+
+
+.input-content-area label{
+ font-size: 1.2rem;
+ font-weight: bold;
+ color: black;
+}
+
+.input-content-area input{
+ height: 3rem;
+ width: 30rem;
+ border: none;
+ padding: 0.5rem;
+ font-size: 1rem;
+ border-radius: 0.2rem;
+ border: 1px solid black;
+}
+
+.buttons-area{
+ padding: 1rem 0 ;
+}
+
+.buttons-area button{
+ background-color: black;
+ border: none;
+ color:white;
+ padding: 0.5rem 1.5rem;
+ border-radius: 0.5rem;
+
+}
+
+
+
+@media (max-width:860px){
+ .input-content-area input{
+  width: 100%;
+ }
+}
